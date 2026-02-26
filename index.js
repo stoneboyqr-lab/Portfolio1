@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 });
 
 
-const text = "Full Stack Developer | Clean, Modern Websites";
+const text = "Web Developer Building Full-Stack Applications";
 const heroSub = document.querySelector('.hero-sub');
 let i = 0;
 

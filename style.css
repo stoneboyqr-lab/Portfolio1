@@ -215,6 +215,11 @@ nav {
 
   .hero-image {
     margin-top: 20px;
+    width: 300px;
+  }
+
+  .hero-text h1{
+    font-size: 2.5rem;
   }
 }
 
@@ -357,6 +362,7 @@ section {
   padding: 10px 20px;
   border-radius: 8px;
   font-weight: 600;
+  margin-top: 20px;
   font-size: 0.9rem;
   text-decoration: none;
   box-shadow: 0 0 15px rgba(0, 245, 255, 0.6);

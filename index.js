@@ -30,10 +30,10 @@ window.addEventListener('scroll', () => {
 // ── Typewriter effect ──
 const phrases = [
   "Full Stack JavaScript Developer",
-  "Building scalable web systems",
-  "Node.js · MongoDB · Express",
-  "Turning ideas into live products",
-  "3 live systems · Blog · E-commerce · Church",
+  "I build scalable systems for businesses",
+  "Node.js · Express · MongoDB",
+  "From idea to deployed product",
+  "Custom platforms . E-commerce . Web Apps",
 ];
 
 const heroSub = document.querySelector('.hero-sub');
@@ -153,28 +153,28 @@ The system is built on PHP with a MySQL database — a stack chosen for its reli
 The client uses this system daily to manage sales, track inventory, and generate end-of-day reports — replacing a manual, error-prone process with a reliable, automated one.`,
     tags: ["PHP", "MySQL", "Full Stack", "POS", "Inventory Management", "Gas Conversion Logic", "Local Network Deployment", "CRUD", "Dashboard"],
   },
-  landing: {
-    title: "Responsive Landing Page",
-    description: `A clean, visually engaging landing page built entirely with HTML, CSS, and vanilla JavaScript — no frameworks, no libraries, no shortcuts. The goal was to demonstrate a strong command of frontend fundamentals while delivering a page that looks and feels professional.
+//   landing: {
+//     title: "Responsive Landing Page",
+//     description: `A clean, visually engaging landing page built entirely with HTML, CSS, and vanilla JavaScript — no frameworks, no libraries, no shortcuts. The goal was to demonstrate a strong command of frontend fundamentals while delivering a page that looks and feels professional.
 
-The layout is built using CSS Flexbox and Grid, with a mobile-first approach ensuring the design responds elegantly across all screen sizes — from small mobile screens to large desktop displays. Careful attention was given to spacing, typography, and visual hierarchy to guide the visitor's eye naturally toward the call-to-action.
+// The layout is built using CSS Flexbox and Grid, with a mobile-first approach ensuring the design responds elegantly across all screen sizes — from small mobile screens to large desktop displays. Careful attention was given to spacing, typography, and visual hierarchy to guide the visitor's eye naturally toward the call-to-action.
 
-Subtle JavaScript interactions enhance the user experience — smooth scroll behaviour, scroll-triggered animations, and lightweight dynamic effects that add polish without bloating the page. No frameworks were used deliberately, keeping the codebase clean, fast, and fully transparent.
+// Subtle JavaScript interactions enhance the user experience — smooth scroll behaviour, scroll-triggered animations, and lightweight dynamic effects that add polish without bloating the page. No frameworks were used deliberately, keeping the codebase clean, fast, and fully transparent.
 
-This project represents the foundation of my frontend work — the discipline of building with precision using the core tools of the web before reaching for abstractions.`,
-    tags: ["HTML5", "CSS3", "Flexbox", "Grid", "JavaScript", "Responsive Design", "Mobile-First"],
-  },
-  portfolio: {
-    title: "Personal Portfolio — Version 1",
-    description: `My first personal portfolio, built as a live showcase of my skills and work as a web developer. The design direction was deliberate — a dark, immersive theme with neon cyan accents, giving it a futuristic, developer-coded aesthetic that reflects the nature of the work inside it.
+// This project represents the foundation of my frontend work — the discipline of building with precision using the core tools of the web before reaching for abstractions.`,
+//     tags: ["HTML5", "CSS3", "Flexbox", "Grid", "JavaScript", "Responsive Design", "Mobile-First"],
+//   },
+//   portfolio: {
+//     title: "Personal Portfolio — Version 1",
+//     description: `My first personal portfolio, built as a live showcase of my skills and work as a web developer. The design direction was deliberate — a dark, immersive theme with neon cyan accents, giving it a futuristic, developer-coded aesthetic that reflects the nature of the work inside it.
 
-The site features smooth scroll navigation, a typewriter hero effect that cycles through developer titles, animated skill cards, project cards with live links, and a fully responsive layout that works cleanly on mobile and desktop alike. The hamburger menu animates into an X on toggle and the nav collapses into a side panel on smaller screens.
+// The site features smooth scroll navigation, a typewriter hero effect that cycles through developer titles, animated skill cards, project cards with live links, and a fully responsive layout that works cleanly on mobile and desktop alike. The hamburger menu animates into an X on toggle and the nav collapses into a side panel on smaller screens.
 
-Beyond the aesthetics, this project was my first attempt at establishing a professional online presence — a single URL where potential clients and employers could see who I am, what I build, and how to reach me. It gave me hands-on experience in personal branding, layout composition, and presenting technical work to a non-technical audience.
+// Beyond the aesthetics, this project was my first attempt at establishing a professional online presence — a single URL where potential clients and employers could see who I am, what I build, and how to reach me. It gave me hands-on experience in personal branding, layout composition, and presenting technical work to a non-technical audience.
 
-Portfolio v1 laid the groundwork for everything that followed. It is the project that started the professional journey.`,
-    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "CSS Animations", "Dark Theme", "GitHub Pages"],
-  },
+// Portfolio v1 laid the groundwork for everything that followed. It is the project that started the professional journey.`,
+//     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "CSS Animations", "Dark Theme", "GitHub Pages"],
+//   },
 };
 
 // ── Modal open/close logic ──

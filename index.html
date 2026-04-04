@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livingstone | Full Stack JavaScript Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Livingstone is a Full Stack JavaScript Developer building fast, scalable web applications, e-commerce systems, admin dashboards, and business websites.">
+    <meta property="og:title" content="Livingstone | Full Stack JavaScript Developer">
+    <meta property="og:description" content="I build fast, scalable web applications that help businesses grow, automate operations, and increase revenue.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lvstwebdev.com/">
+    <meta property="og:image" content="https://lvstwebdev.com/lvstblog.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header id="navbar">
     <div class="container">
       <nav>
-        <div class="logo"><a href="#"><img src="./image0 (3)-Photoroom.png" alt="logo"></a></div>
+        <div class="logo"><a href="#"><img src="./image0 (3)-Photoroom.png" alt="Lvst Web Dev logo"></a></div>
         <ul class="nav-links">
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -29,13 +40,17 @@
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-text">
-        <p>Hello, I'm</p>
+        <p>Hi, I'm</p>
         <h1>Living <span>Stone</span></h1>
-        <p class="hero-sub">Full Stack JavaScript Developer</p>
-        <a href="#projects" class="btn-primary btn">View My Work</a>
+        <p class="hero-sub">I build fast, scalable web applications that help businesses grow, automate operations, and increase revenue.</p>
+        <p class="hero-proof">✔ 4 live projects &nbsp; ✔ full stack systems &nbsp; ✔ frontend to deployment</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary btn">View My Work</a>
+          <a href="#contact" class="btn-secondary btn">Hire Me</a>
+        </div>
       </div>
       <div class="hero-image">
-        <img src="./image0 (2).jpeg" alt="Stone Boy Developer">
+        <img src="./image0 (2).jpeg" alt="Livingstone, Full Stack JavaScript Developer">
       </div>
     </div>
   </section>
@@ -43,6 +58,7 @@
   <section class="skills" id="skills">
     <div class="container">
       <h2 class="section-title">My Skills</h2>
+      <p class="section-sub">Technologies and tools I use to build modern, production-ready web applications.</p>
       <div class="skills-grid">
         <div class="skill-card">HTML5</div>
         <div class="skill-card">CSS3 / Flexbox / Grid</div>
@@ -64,110 +80,119 @@
 
   <section class="projects" id="projects">
     <div class="container">
-      <h2 class="section-title">My Projects</h2>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub">Real-world systems built to solve problems, automate workflows, and deliver measurable results.</p>
       <div class="projects-grid">
 
         <div class="project-card">
-          <img src="./dcwebsite.png" alt="Church Management System">
-          <h3>Church Management System — Dominion City</h3>
-          <p class="project-short">A full stack church management system built for Dominion City Akwakuma, Owerri.</p>
-          <div class="project-tags">
-            <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span><span>Paystack</span>
-          </div>
-          <div class="project-btns">
-            <button class="btn-secondary read-more-btn" data-project="church">Read More</button>
-            <a href="https://dominioncityakwakuma.onrender.com/" target="_blank" class="btn-primary">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="./ecommerce.png" alt="E-commerce System">
+          <div class="project-status-row"><span class="project-status live">Live Project</span></div>
+          <img src="./ecommerce.png" alt="Lvst Store full stack e-commerce system">
           <h3>Full Stack E-commerce System — Lvst Store</h3>
-          <p class="project-short">A complete, production-grade e-commerce platform with Paystack payments, admin dashboard, cart, wishlist, coupons, and full order management.</p>
+          <p class="project-short">Built a production-ready e-commerce system with payments, admin dashboard, coupons, wishlist, and full order management for real business transactions.</p>
           <div class="project-tags">
             <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span><span>Paystack</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="ecommerce">Read More</button>
-            <a href="https://shop.lvstwebdev.com/" target="_blank" class="btn-primary">View Project</a>
+            <a href="https://shop.lvstwebdev.com/" target="_blank" rel="noopener" class="btn-primary">View Project</a>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="./Screenshot 2026-04-02 112615.png" alt="Full Stack Blog System">
+          <div class="project-status-row"><span class="project-status live">Live Project</span></div>
+          <img src="./dcwebsite.png" alt="Church Management System">
+          <h3>Church Management System — Dominion City</h3>
+          <p class="project-short">Digitised church operations with a full management system for sermons, donations, testimonies, and prayer requests — reducing manual processes and improving engagement.</p>
+          <div class="project-tags">
+            <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span><span>Paystack</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-secondary read-more-btn" data-project="church">Read More</button>
+            <a href="https://dominioncityakwakuma.onrender.com/" target="_blank" rel="noopener" class="btn-primary">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-status-row"><span class="project-status live">Live Project</span></div>
+          <img src="./lvstblog.png" alt="Stone Boy Dev Blog">
           <h3>Full Stack Blog System — Stone Boy Dev Blog</h3>
-          <p class="project-short">A personal dev blog built from scratch with a full admin dashboard, rich text editor, and a dark editorial design.</p>
+          <p class="project-short">A custom blog platform with admin dashboard, rich text editing, moderated comments, and a premium editorial design built for real content publishing.</p>
           <div class="project-tags">
             <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span><span>Quill.js</span><span>Multer</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="blog">Read More</button>
-            <a href="https://blog.lvstwebdev.com/" target="_blank" class="btn-primary">View Project</a>
+            <a href="https://blog.lvstwebdev.com/" target="_blank" rel="noopener" class="btn-primary">View Project</a>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="./Screenshot 2026-02-25 034551.png" alt="Modish Cakes">
+          <div class="project-status-row"><span class="project-status live">Live Project</span></div>
+          <img src="./Screenshot 2026-02-25 034551.png" alt="Modish Cakes website">
           <h3>Business Website — Modish Cakes</h3>
-          <p class="project-short">Responsive multi-page business website for Modish Cakes and Events.</p>
+          <p class="project-short">A conversion-focused business website designed to showcase services, build trust, and drive enquiries through WhatsApp and social media.</p>
           <div class="project-tags">
             <span>HTML</span><span>CSS</span><span>JavaScript</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="modish">Read More</button>
-            <a href="https://modishcakesng.com/" target="_blank" class="btn-primary">View Project</a>
+            <a href="https://modishcakesng.com/" target="_blank" rel="noopener" class="btn-primary">View Project</a>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="./Screenshot 2026-02-25 042115.png" alt="E-commerce store">
+          <div class="project-status-row"><span class="project-status case">Client Project</span></div>
+          <img src="./Screenshot 2026-02-25 042115.png" alt="Kidividual e-commerce store">
           <h3>E-commerce Store — Kidividual</h3>
-          <p class="project-short">Scalable kids fashion e-commerce platform with payment integrations.</p>
+          <p class="project-short">A WordPress + WooCommerce store built for a kids fashion brand, structured for catalogue growth, payments, and search visibility.</p>
           <div class="project-tags">
             <span>WordPress</span><span>WooCommerce</span><span>SEO</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="kidividual">Read More</button>
-            <a href="https://kidividualng.com/" target="_blank" class="btn-primary">View Project</a>
+            <span class="btn-primary btn-disabled">Client Project</span>
           </div>
         </div>
 
         <div class="project-card">
+          <div class="project-status-row"><span class="project-status case">Case Study</span></div>
           <img src="./Posphpsystem.png" alt="POS System">
           <h3>POS & Inventory System — Gas Plant</h3>
-          <p class="project-short">A full stack Point of Sale and inventory management system built for a gas plant, featuring gas unit conversion, automated calculations, and real-time stock tracking.</p>
+          <p class="project-short">A custom POS and inventory system for a gas plant, featuring gas unit conversion, automated calculations, and real-time stock tracking in a local deployment environment.</p>
           <div class="project-tags">
             <span>PHP</span><span>MySQL</span><span>Full Stack</span><span>POS</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="pos">Read More</button>
-            <a href="#" class="btn-primary">View Project</a>
+            <span class="btn-primary btn-disabled">Case Study</span>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="./Screenshot 2026-01-27 225704.png" alt="Landing Page">
+          <div class="project-status-row"><span class="project-status case">Case Study</span></div>
+          <img src="./Screenshot 2026-01-27 225704.png" alt="Landing page project">
           <h3>Landing Page</h3>
-          <p class="project-short">Responsive front-end landing page with HTML, CSS, and JS.</p>
+          <p class="project-short">A responsive landing page built with clean frontend fundamentals, focused on layout precision, hierarchy, and strong call-to-action flow.</p>
           <div class="project-tags">
             <span>HTML</span><span>CSS</span><span>JavaScript</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="landing">Read More</button>
-            <a href="#" class="btn-primary">View Project</a>
+            <span class="btn-primary btn-disabled">Case Study</span>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="./Screenshot 2026-02-25 034341.png" alt="Portfolio v1">
+          <div class="project-status-row"><span class="project-status case">Case Study</span></div>
+          <img src="./Screenshot 2026-02-25 034341.png" alt="Portfolio version one">
           <h3>Portfolio v1</h3>
-          <p class="project-short">First personal portfolio with dark theme and neon accents.</p>
+          <p class="project-short">My first portfolio build — a dark-themed showcase focused on personal branding, motion, and presenting technical work professionally.</p>
           <div class="project-tags">
             <span>HTML</span><span>CSS</span><span>JavaScript</span>
           </div>
           <div class="project-btns">
             <button class="btn-secondary read-more-btn" data-project="portfolio">Read More</button>
-            <a href="#" class="btn-primary">View Project</a>
+            <span class="btn-primary btn-disabled">Case Study</span>
           </div>
         </div>
 
@@ -180,14 +205,14 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-content">
         <div class="about-text">
-          <p>Hi, I'm Livingstone — a Full Stack JavaScript Developer passionate about building clean, responsive, and high-performing web applications. I specialise in crafting digital experiences that are visually compelling and functionally solid from the ground up.
-<br><br>
-I work with a modern stack spanning HTML, CSS, JavaScript, React, Tailwind, and Bootstrap on the frontend, and Node.js, Express, MongoDB, and PostgreSQL on the backend — comfortable with authentication, REST APIs, payment integration, and deploying production-ready applications.</p>
-          <p>I also run Lvst Web Dev, a freelance web development business helping individuals and organisations establish a strong online presence — from landing pages to full scale web systems.</p>
-          <p>I'm constantly learning and building, because great development is always evolving. Have a project in mind? Let's build something great together.</p>
+          <p>I’m a Full Stack JavaScript Developer focused on building clean, scalable, and high-performing web applications. I don’t just write code — I build systems that solve real business problems.</p>
+          <p>From e-commerce platforms to admin dashboards and full-stack applications, I design and develop solutions that help businesses operate more efficiently and grow online.</p>
+          <p>I work with modern technologies including JavaScript, Node.js, Express, MongoDB, and SQL — handling everything from frontend design to backend architecture, authentication, payments, and deployment.</p>
+          <p>I also run Lvst Web Dev, where I help individuals and businesses build strong digital platforms — from landing pages to full production systems.</p>
+          <p>If you need a developer who can take your idea from concept to a live, working product, let’s work together.</p>
         </div>
         <div class="about-image">
-          <img src="./image1.jpeg" alt="Livingstone">
+          <img src="./image1.jpeg" alt="Livingstone portrait">
         </div>
       </div>
     </div>
@@ -196,13 +221,13 @@ I work with a modern stack spanning HTML, CSS, JavaScript, React, Tailwind, and 
   <section class="contact" id="contact">
     <div class="container">
       <h2 class="section-title">Contact Me</h2>
-      <p class="contact-text">Let's work together! Reach out via email or connect with me on GitHub and LinkedIn.</p>
+      <p class="contact-text">Have a project in mind or need a developer to bring your idea to life? I’m available for freelance work, collaborations, and full-time opportunities.</p>
+      <p class="contact-sub">Response time: Within 24 hours</p>
       <div class="contact-links">
-        <a href="/cdn-cgi/l/email-protection#7a090e15141f1815030b083a1d171b131654191517" class="btn-primary">Email Me</a>
-        <a href="https://github.com/stoneboyqr-lab" class="btn-primary">GitHub</a>
-        <a href="#" class="btn-primary">LinkedIn</a>
-        <a href="https://wa.me/2347052830276" class="btn-primary">Whatsapp</a>
-        <a href="https://www.instagram.com/lvst_web_dev?igsh=aDZzNDF2Mmxybmpj&utm_source=qr" class="btn-primary">Instagram</a>
+        <a href="mailto:stoneboyqr@gmail.com" class="btn-primary">Email Me</a>
+        <a href="https://wa.me/2347052830276" target="_blank" rel="noopener" class="btn-primary">WhatsApp</a>
+        <a href="https://github.com/stoneboyqr-lab" target="_blank" rel="noopener" class="btn-primary">GitHub</a>
+        <a href="https://www.instagram.com/lvst_web_dev?igsh=aDZzNDF2Mmxybmpj&utm_source=qr" target="_blank" rel="noopener" class="btn-primary">Instagram</a>
       </div>
     </div>
   </section>
@@ -210,17 +235,16 @@ I work with a modern stack spanning HTML, CSS, JavaScript, React, Tailwind, and 
   <footer class="footer">
     <div class="container">
       <h3>Living Stone | Lvst Web Dev</h3>
-      <p>Full-Stack Developer</p>
+      <p>Full Stack JavaScript Developer</p>
       <div class="socials">
-        <a href="https://github.com/stoneboyqr-lab">GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="/cdn-cgi/l/email-protection#27545348494245485e565567404a464e4b0944484a">Email</a>
+        <a href="https://github.com/stoneboyqr-lab" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:stoneboyqr@gmail.com">Email</a>
+        <a href="https://wa.me/2347052830276" target="_blank" rel="noopener">WhatsApp</a>
       </div>
       <p class="copy">© 2026 Livingstone. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Modal Overlay -->
   <div class="modal-overlay" id="modalOverlay">
     <div class="modal" id="modal">
       <button class="modal-close" id="modalClose">&times;</button>

@@ -2,30 +2,31 @@
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
-hamburger?.addEventListener('click', () => {
-  navLinks?.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
   hamburger.classList.toggle('active');
 });
 
 // close menu when a link is clicked on mobile
-navLinks?.querySelectorAll('a').forEach(link => {
+navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('active');
-    hamburger?.classList.remove('active');
+    hamburger.classList.remove('active');
   });
 });
+
 
 // ── Navbar scroll background ──
 const navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', () => {
-  if (!navbar) return;
   if (window.scrollY > 50) {
     navbar.classList.add('scrolled');
   } else {
     navbar.classList.remove('scrolled');
   }
 });
+
 
 // ── Typewriter effect ──
 const phrases = [
@@ -43,8 +44,6 @@ let isDeleting = false;
 let typingSpeed = 80;
 
 function typeEffect() {
-  if (!heroSub) return;
-
   const currentPhrase = phrases[phraseIndex];
 
   if (isDeleting) {
@@ -70,6 +69,7 @@ function typeEffect() {
 }
 
 typeEffect();
+
 
 // ── Modal project data ──
 const projectData = {
@@ -177,6 +177,7 @@ Portfolio v1 laid the groundwork for everything that followed. It is the project
   },
 };
 
+
 // ── Modal open/close logic ──
 const modalOverlay = document.getElementById('modalOverlay');
 const modalClose = document.getElementById('modalClose');
@@ -186,7 +187,7 @@ document.querySelectorAll('.read-more-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const key = btn.dataset.project;
     const project = projectData[key];
-    if (!project || !modalContent || !modalOverlay) return;
+    if (!project) return;
 
     const tagsHTML = project.tags.map(t => `<span>${t}</span>`).join('');
     const descHTML = project.description
@@ -206,10 +207,10 @@ document.querySelectorAll('.read-more-btn').forEach(btn => {
 });
 
 // close on X button
-modalClose?.addEventListener('click', closeModal);
+modalClose.addEventListener('click', closeModal);
 
 // close on overlay click
-modalOverlay?.addEventListener('click', (e) => {
+modalOverlay.addEventListener('click', (e) => {
   if (e.target === modalOverlay) closeModal();
 });
 
@@ -219,6 +220,6 @@ document.addEventListener('keydown', (e) => {
 });
 
 function closeModal() {
-  modalOverlay?.classList.remove('active');
+  modalOverlay.classList.remove('active');
   document.body.style.overflow = '';
 }

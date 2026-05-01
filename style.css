@@ -581,6 +581,12 @@ section { padding: 100px 0; }
 }
 
 
+@media (max-width: 380px) {
+  .text-edit{
+    font-size: 0.7rem !important;
+  }
+}
+
 /* BACK TO TOP */
 #backToTop{
   position:fixed;

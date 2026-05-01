@@ -73,6 +73,31 @@ typeEffect();
 
 // ── Modal project data ──
 const projectData = {
+lvstpos: {
+    title: "LVST POS System — Business Management Software",
+    description: `LVST POS System is a full-stack point of sale and business management software built for businesses that need sales, inventory, receipts, purchases, expenses, reports, users, roles, and business settings in one system.
+
+The application includes a complete POS workflow for recording sales, handling cart items, calculating totals, receiving payments, printing receipts, and tracking sales history. Products can be managed with categories, SKU, barcode, stock quantity, low stock threshold, images, and status control. Inventory updates automatically as sales and purchases are recorded, making the system useful for real retail and shop operations.
+
+Beyond sales, the system includes purchases, suppliers, customers, expenses, reports, payment methods, themes, settings, and user management. Admins can create users with roles, manage business details, update receipt settings, and view business performance through reports and summaries. Search was also added across major list pages such as products, inventory, categories, expenses, customers, suppliers, users, and purchases to make the system easier to use with large records.
+
+The backend is built with Node.js, Express, Prisma, and MySQL, while the frontend uses EJS, CSS, and vanilla JavaScript. The software is packaged for local installation, supports fresh database setup, and can be launched locally through a desktop-style startup flow.
+
+A private license server was also built separately to support license generation, activation, verification, installation tracking, reset/disable controls, and software access protection. The license server is not publicly linked for security reasons.`,
+    tags: ["Node.js", "Express", "EJS", "Prisma", "MySQL", "POS", "Inventory", "Receipts", "Reports", "License Activation", "Local Deployment"],
+  },
+
+  lvstlanding: {
+    title: "Software Sales Website — LVST POS",
+    description: `The LVST POS sales website is a responsive product landing page built to present, sell, and support the LVST POS software as a real digital product.
+
+The site includes a product-focused hero section, feature breakdowns, screenshots, pricing, a local setup offer, FAQ content, and a Vimeo demo video showing the software in action. It was designed to explain the value of the software clearly to both online buyers and local businesses that may need installation, setup, and training.
+
+The checkout flow is integrated with Paystack for Nigerian payments, with server-side payment verification, callback handling, webhook support, and an admin area for viewing orders and license requests. Custom license requests can also be submitted from the site, allowing buyers to request special arrangements outside the standard plans.
+
+The project also includes SEO and social sharing polish such as favicon setup, Open Graph image, meta descriptions, canonical URLs, sitemap, robots.txt, and a custom domain. The result is not just a landing page, but a full sales and marketing layer for a software product.`,
+    tags: ["Node.js", "Express", "EJS", "Paystack", "Webhook", "SEO", "Open Graph", "Vimeo", "Responsive Design", "Render"],
+  },
   church: {
     title: "Church Management System — Dominion City Akwakuma",
     description: `Dominion City Akwakuma is a branch of one of Nigeria's fastest-growing church networks, with over 750 chapters across Africa and beyond. They needed a modern, fully functional web presence — not just a brochure site, but a living platform their congregation could interact with and their admin team could manage independently.
